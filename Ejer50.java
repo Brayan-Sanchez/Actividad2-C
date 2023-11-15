@@ -15,7 +15,7 @@ public class ejer50 {
         System.out.println("Ingrese un día de la semana (ej: Lunes):");
         String weekday = keyboard.nextLine().trim();
 
-        char weekDayChar = ' '; // Declaración de la variable
+        char weekDayChar = ' '; 
 
         if (weekday.equalsIgnoreCase("Lunes")) {
             weekDayChar = 'L';
